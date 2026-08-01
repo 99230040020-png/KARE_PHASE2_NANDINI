@@ -14,3 +14,20 @@ class Main
             }
         }
     }
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner obj = new Scanner(System.in);
+        int n,row,col;
+        n = obj.nextInt();
+        for(row = 0; row<n; row++, System.out.println())
+        {
+            for(col=0;col<n;col++){
+                if(row==0||row==n-1||col==0||col==n-1)
+                System.out.print("*");
+                else
+                System.out.print(" ");
+            }
+        }
+    }
+}
