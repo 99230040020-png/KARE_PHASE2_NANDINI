@@ -1,0 +1,17 @@
+class Main {
+    public static void main(String args[]){
+        System.out.print("CSE");
+    }
+}
+
+class Main {
+    public static void main(String args[]){
+        System.out.print("CSE\"KARE\"student");
+    }
+}
+
+class Main {
+    public static void main(String args[]){
+        System.out.print("\n");
+    }
+}
